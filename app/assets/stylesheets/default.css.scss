@@ -6,6 +6,7 @@ html, body {
   font-family: Tahoma, Verdana, sans-serif;
   font-size: 10pt;
 }
+
 div#main {
   margin: 0;
   padding: 0 20px 20px;
@@ -38,6 +39,9 @@ table#movies {
   border-collapse: collapse;
   width: 100%;
   border-bottom: 2px solid black;
+}
+table#movies th.hilite {
+  background-color: yellow;
 }
 table#movies th {
   border: 2px solid white;
